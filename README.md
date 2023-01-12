@@ -1,13 +1,12 @@
 # Unfollow Everything On Facebook
 It is a script to unfollow everything on Facebook
 
-0. Open https://www.facebook.com/pages/?category=liked
-
-0b. Scroll down to load all pages
-1. Open Developers Tools in your browser on a PC (CTRL+ALT+I or search online <browser name> + open developer tools). The following tutorial is based on Chrome unfortunately
-2. Open a place to paste the script to unfollow. Go to "Sources" tab
-3. Click "New snippet"
-4. In the text field paste:
+1. Open https://www.facebook.com/pages/?category=liked
+2. Scroll down to load all pages
+3. Open Developers Tools in your browser on a PC (CTRL+ALT+I or search online <browser name> + open developer tools). The following tutorial is based on Chrome unfortunately
+4. Open a place to paste the script to unfollow. Go to "Sources" tab
+5. Click "New snippet"
+6. In the text field paste:
 
 ```
 var xpath = "//span[text()='Obserwujesz']";
@@ -28,7 +27,7 @@ matchingElement.snapshotItem(i).click();
 
 In case you don't use polish language, change it to the text you see on the button. Some people run the script with 'Following' and 'Liked' texts to wipe all likes and follows.
 
-5. Click CTRL+ENTER or the arrow below to run the script
-6. The script will unfullow / unobserve all fanpages. Now you can enjoy Facebook without spam
+7. Click CTRL+ENTER or the arrow below to run the script
+8. The script will unfullow / unobserve all fanpages. Now you can enjoy Facebook without spam
 
 Facebook is a trademark of Facebook
