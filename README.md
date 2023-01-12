@@ -28,3 +28,7 @@ Some people run the script with 'Following' and 'Liked' texts to wipe all likes 
 8. The script will unfullow / unobserve all fanpages. Now you can enjoy Facebook without spam
 
 Facebook is a trademark of Facebook
+
+# Troubleshooting
+
+If it does not work, create an issue with a screenshot of your page
