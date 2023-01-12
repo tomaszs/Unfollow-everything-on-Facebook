@@ -10,22 +10,19 @@ It is a script to unfollow everything on Facebook
 
 ```
 var xpath = "//span[text()='Obserwujesz']";
-
 var matchingElement = document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-
 for (var i = 0; i < matchingElement.snapshotLength; i++)
-
 {
-
-matchingElement.snapshotItem(i).click();
-
+  matchingElement.snapshotItem(i).click();
 }
 ```
 
 'Obserwujesz" is the text displayed on the button below a fanpage on the list:
+  
 ![image](https://user-images.githubusercontent.com/834977/212021379-84575569-c35a-4600-a0f2-6f12babb38f9.png)
 
-In case you don't use polish language, change it to the text you see on the button. Some people run the script with 'Following' and 'Liked' texts to wipe all likes and follows.
+In case you don't use polish language, change it to the text you see on the button.
+Some people run the script with 'Following' and 'Liked' texts to wipe all likes and follows.
 
 7. Click CTRL+ENTER or the arrow below to run the script
 8. The script will unfullow / unobserve all fanpages. Now you can enjoy Facebook without spam
