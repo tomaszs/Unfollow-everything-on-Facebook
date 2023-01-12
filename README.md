@@ -2,6 +2,7 @@
 It is a script to unfollow everything on Facebook
 
 0. Open https://www.facebook.com/pages/?category=liked
+
 0b. Scroll down to load all pages
 1. Open Developers Tools in your browser on a PC (CTRL+ALT+I or search online <browser name> + open developer tools). The following tutorial is based on Chrome unfortunately
 2. Open a place to paste the script to unfollow. Go to "Sources" tab
